@@ -54,6 +54,6 @@ ran Initial SELECT * queries to understand table structure column types
 - **High-Risk Demographic:** Patients in the 60-64 age group showed the highest readmission rate at 13.1%, which suggests a need for more post-discharge support and follow-up for this age group
 - **Chronic Condition Risk:** Patients with Hypertension(26.1%) and Diabetes(26.9%) saw an inrease in readmission risk by 30% to 34%  respectively,  compared to those with neither condition (20.1%).
 - **Discharge Destination Risk:** Readmission rates for patients discharged to Rehab(17.5%) and Nursing facilities(16.8%) were significantly higher compared to those sent Home(10%). This suggests a critical need for integrated care transitions between hospitals and post-acute facilities.
-
+- **Premature Discharge Risk:** Patients with a 2-day Length of Stay (13.2%) exhibited a higher readmission rate than those hospitalized for 10 days (11.4%). This suggests that shorter hospital stays can correlate with premature discharges.
 
 # Dashboard Preview
