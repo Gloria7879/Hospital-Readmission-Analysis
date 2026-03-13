@@ -29,6 +29,12 @@ The goal of this project was to analyze patient data to identify key drivers of 
 
 **Data Inspection**
 
+Performed a scan in Excel to identify column relationships, data types and obvious data errors
+
+Uploaded raw csv file from Kaggle into MySql
+
+Ran Initial SELECT queries to understand table structure column types
+
 **Data Cleaning**
 
 **Data Transformation and Feature Engineering**
