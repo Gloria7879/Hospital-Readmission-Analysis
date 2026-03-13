@@ -28,16 +28,21 @@ The goal of this project was to analyze patient data to identify key drivers of 
 # The Process
 
 **Data Inspection**
+### 1. Initial Data Inspection (Excel and SQL)
+- **Visual Audit:** Performed a scan in Excel to identify column relationships, data types and obvious data errors,
+uploaded raw csv file from Kaggle into MySql,
+ran Initial SELECT * queries to understand table structure column types
+- **Exploratory Data Analysis (SQL):** Used `MIN`, `MAX`, and `AVG` functions to check numerical fields. This ensured there were no impossible outliers or negative values that would skew the final results.
 
-Performed a scan in Excel to identify column relationships, data types and obvious data errors
 
-Uploaded raw csv file from Kaggle into MySql
+### 1. Data Cleaning (SQL)
 
-Ran Initial SELECT queries to understand table structure column types
-
-**Data Cleaning**
-
+- **Staging Table:** Created a CTE(Common Table Expression) which allowed me to transform the data while preserving the raw data for integrity
+- **Removal of Duplicates** Verified data uniqueness, checked for duplicates, confirmed zero duplicate records which ensured that each patient visit was recorded only once
+- **Null and Blank Values** Checked for any null or blank values to prevent these categories in the final dashboard
+- 
 **Data Transformation and Feature Engineering**
+
 
 **Data Visualization**
 
