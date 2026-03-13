@@ -33,12 +33,33 @@ The goal of this project was to analyze patient data to identify key drivers of 
 uploaded raw csv file from Kaggle into MySql,
 ran Initial SELECT * queries to understand table structure column types
 - **Exploratory Data Analysis (SQL):** Used `MIN`, `MAX`, and `AVG` functions to catch outliers. This ensured there were no impossible outliers or negative values that would skew the final results.
-
+  
+```sql
+SELECT 
+    MAX(age) AS max_age, 
+    MIN(age) AS min_age, 
+    AVG(length_of_stay) AS avg_stay
+FROM hospital_readmissions_staging2;
+```
 
 ### 2. Data Cleaning (SQL)
 
 - **Staging Table:** Created a **CTE(Common Table Expression)** which allowed me to transform the data while preserving the raw data for integrity
 - **Removal of Duplicates** Verified data uniqueness, checked for duplicates, confirmed zero duplicate records which ensured that each patient visit was recorded only once
+  
+```sql
+WITH duplicate_cte AS ( 
+    SELECT *,
+    ROW_NUMBER() OVER(
+        PARTITION BY patient_id, age, gender, blood_pressure, cholesterol, 
+                     bmi, diabetes, hypertension, medication_count, 
+                     length_of_stay, discharge_destination, readmitted_30_days
+    ) AS row_num
+    FROM hospital_readmissions_staging
+)
+SELECT * FROM duplicate_cte WHERE row_num > 1;
+```
+
 - **Null and Blank Values** Checked for any null or blank values to prevent these categories in the final dashboard
   
 ### 3. Data Transformation and Visualization (Tableau)
