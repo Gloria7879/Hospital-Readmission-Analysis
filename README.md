@@ -4,15 +4,18 @@
 Interactive Tableau dashboard performing Exploratory Data Analysis (EDA) on synthetic healthcare data to identify 30 day hospital readmission risks. Features SQL-driven data transformation and Tableau feature engineering to isolate high-risk patient populations and provide actionable discharge recommendations for hospital administrators. 
 
 # Quick Links
-**Interactive Dashboard:** https://public.tableau.com/views/HospitalReadmissionRisk/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+- **Interactive Dashboard:** https://public.tableau.com/views/HospitalReadmissionRisk/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
-**SQL Data Cleaning Script:** [View Full Data Cleaning Script](Hospital_Readmissions.sql)
+- **SQL Data Cleaning Script:** [View Full Data Cleaning Script](Hospital_Readmissions.sql)
 
-**Raw Dataset:**
+- **Raw Dataset:**: [Download CSV](hospital_readmissions_30k.csv)
 
 # Data Source
 
+- **Original Dataset:** [Hospital Readmission Prediction(synthetic-dataset) on Kaggle](https://www.kaggle.com/datasets/siddharth0935/hospital-readmission-predictionsynthetic-dataset)
+  
 # The Challenge
+
 The goal of this project was to analyze patient data to identify key drivers of 30 day hospital readmissions. High readmission rates can affect patient outcome and hospitals can face severe financial penalties.
 
 # Tools Used
