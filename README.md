@@ -6,7 +6,7 @@ Interactive Tableau dashboard performing Exploratory Data Analysis (EDA) on synt
 # Quick Links
 **Interactive Dashboard:** https://public.tableau.com/views/HospitalReadmissionRisk/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
-**SQL Data Cleaning Script:**
+**SQL Data Cleaning Script:** [View Full Data Cleaning Script](Hospital_Readmissions.sql)
 
 **Raw Dataset:**
 
