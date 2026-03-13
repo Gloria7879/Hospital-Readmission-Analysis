@@ -1,3 +1,7 @@
+-- Project: Hospital Readmission Risk Analysis
+-- Purpose: Cleaning raw Kaggle data for Tablaeu visualization
+-- Author: Gloria
+
 -- Data Cleaning
 
 
