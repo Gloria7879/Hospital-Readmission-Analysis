@@ -57,3 +57,5 @@ ran Initial SELECT * queries to understand table structure column types
 - **Premature Discharge Risk:** Patients with a **2-day Length of Stay (13.2%)** exhibited a **higher** readmission rate than those hospitalized for **10 days (11.4%)**. This suggests that shorter hospital stays can correlate with **premature discharges**.
 
 # Dashboard Preview
+
+[![Hospital Readmission Dashboard Preview](Hospital_Readmissions_Dashboard_Preview.png)](https://public.tableau.com/views/HospitalReadmissionRisk/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
