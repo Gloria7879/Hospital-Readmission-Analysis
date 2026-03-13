@@ -46,7 +46,7 @@ ran Initial SELECT * queries to understand table structure column types
 - **Feature Engineering:** Created a risk profile by grouping patients into four categories, Both(Diabetes and Hypertension), Diabetes Only, Hypertension Only, and Neither
 - **Demographic Binning** Developed Age Brackets to identify which age groups are at higher risk for readmission
 - **KPI Development** Calculated key hospital metrics including Readmission Rate,Total Admissions, Total Readmissions, and Average Length of Stay
-- **Interactive Dashboarding** Designed four key visualizations that analyzes 30 day readmissions by age,length of stay, discharge destination and chronic condition risk
+- **Interactive Dashboarding** Designed four key visualizations that analyzes 30 Day Readmissions by Age,Length of Stay, Discharge Destination and Chronic Condition Risk
 
 
 # Key Insights & Recommendations
