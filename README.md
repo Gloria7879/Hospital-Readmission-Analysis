@@ -44,9 +44,9 @@ ran Initial SELECT * queries to understand table structure column types
 ### 3. Data Transformation and Visualization (Tableau)
 
 - **Feature Engineering:** Created a risk profile by grouping patients into four categories, Both(Diabetes and Hypertension), Diabetes Only, Hypertension Only, and Neither
--**Demographic Binning** Developed Age Brackets to identify which age groups are at higher risk for readmission
--**KPI Development** Calculated key hospital metrics including Readmission Rate,Total Admissions, Total Readmissions, and Average Length of Stay
--**Interactive Dashboarding** Designed four key visualizations that analyzes 30 day readmissions by age,length of stay, discharge destination and chronic condition risk
+- **Demographic Binning** Developed Age Brackets to identify which age groups are at higher risk for readmission
+- **KPI Development** Calculated key hospital metrics including Readmission Rate,Total Admissions, Total Readmissions, and Average Length of Stay
+- **Interactive Dashboarding** Designed four key visualizations that analyzes 30 day readmissions by age,length of stay, discharge destination and chronic condition risk
 
 
 # Key Insights & Recommendations
