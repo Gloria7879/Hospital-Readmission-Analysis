@@ -27,6 +27,13 @@ The goal of this project was to analyze patient data to identify key drivers of 
 
 # The Process
 
+**Data Inspection**
+
+**Data Cleaning**
+
+**Data Transformation and Feature Engineering**
+
+**Data Visualization**
 
 # Key Insights & Recommendations
 
