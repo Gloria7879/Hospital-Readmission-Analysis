@@ -35,16 +35,19 @@ ran Initial SELECT * queries to understand table structure column types
 - **Exploratory Data Analysis (SQL):** Used `MIN`, `MAX`, and `AVG` functions to check numerical fields. This ensured there were no impossible outliers or negative values that would skew the final results.
 
 
-### 1. Data Cleaning (SQL)
+### 2. Data Cleaning (SQL)
 
 - **Staging Table:** Created a CTE(Common Table Expression) which allowed me to transform the data while preserving the raw data for integrity
 - **Removal of Duplicates** Verified data uniqueness, checked for duplicates, confirmed zero duplicate records which ensured that each patient visit was recorded only once
 - **Null and Blank Values** Checked for any null or blank values to prevent these categories in the final dashboard
-- 
-**Data Transformation and Feature Engineering**
+  
+### 3. Data Transformation and Visualization (Tableau)
 
+- **Feature Engineering:**
+-**Demographic Binning**
+-**KPI Development**
+-**Interactive Dashboarding**
 
-**Data Visualization**
 
 # Key Insights & Recommendations
 
