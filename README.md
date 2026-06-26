@@ -6,6 +6,10 @@ Interactive Tableau dashboard performing Exploratory Data Analysis (EDA) on synt
 # Quick Links
 - **Interactive Dashboard:** https://public.tableau.com/views/HospitalReadmissionRisk/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
+# Dashboard Preview
+
+[![Hospital Readmission Dashboard Preview](Hospital_Readmissions_Dashboard_Preview.png)](https://public.tableau.com/views/HospitalReadmissionRisk/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 - **SQL Data Cleaning Script:** [View Full Data Cleaning Script](Hospital_Readmissions.sql)
 
 - **Raw Dataset:**: [Download CSV](hospital_readmissions_30k.csv)
@@ -77,6 +81,3 @@ SELECT * FROM duplicate_cte WHERE row_num > 1;
 - **Discharge Destination Risk:** Readmission rates for patients discharged to **Rehab (17.5%)** and **Nursing facilities (16.8%)** were significantly higher compared to those sent **Home (10%)**. This suggests a critical need for more **integrated care transitions** between hospitals and post-acute facilities.
 - **Premature Discharge Risk:** Patients with a **2-day Length of Stay (13.2%)** exhibited a **15.7% higher readmission rate** than those hospitalized for **10 days (11.4%)**. This suggests that shorter hospital stays can correlate with **premature discharges**.
 
-# Dashboard Preview
-
-[![Hospital Readmission Dashboard Preview](Hospital_Readmissions_Dashboard_Preview.png)](https://public.tableau.com/views/HospitalReadmissionRisk/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
